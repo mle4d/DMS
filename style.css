@@ -1,12 +1,16 @@
 HTML {
   background: #e1e1e1;
 }
-body {
-    margin: auto;
-    margin-top: 10px;
-    border-color: #3e7ab6 transparent;
-    border-style: solid;
-    border-width: 0px 600px 600px 600px;
-    height: 0px;
-    width: 0px;
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  background: black;
+  margin: auto;
+}
+.screen {
+  width: 50vw;
+  height: 70vh;
+  background: white;
+  margin: auto;
 }
