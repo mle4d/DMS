@@ -7,8 +7,8 @@ body {
 .container {
   width: 80vw;
   height: 80vh;
-  background: rgb(114,114,116);
-background: linear-gradient(90deg, rgba(114,114,116,1) 0%, rgba(0,0,0,1) 100%);
+  /* background: rgb(114,114,116);
+background: linear-gradient(90deg, rgba(114,114,116,1) 0%, rgba(0,0,0,1) 100%); */
   margin: auto;
   margin-top: 5%;
   display: flex;
@@ -18,29 +18,33 @@ background: linear-gradient(90deg, rgba(114,114,116,1) 0%, rgba(0,0,0,1) 100%);
 }
 .left {
   width: 50%;
-  height: 99%;
+  height: 97%;
   background: #e1e1e1 ;
   background: linear-gradient(-44deg, #578fbe 48%, #727274 49%, #e1e1e1 50%);
 }
 .right {
   width: 50%;
-  height: 99%;
+  height: 97%;
   background: #e1e1e1 ;
   background: linear-gradient(44deg, #578fbe 48%, #000000 49%, #e1e1e1 50%);
 }
 .leftBottom{
   width: 50%;
-  height: 1%;
+  height: 3%;
   background: #000000 ;
   background: linear-gradient(90deg,#aeaeae 1%, #727274 2%, #000000 100%);
   box-shadow: 10px 5px 5px black;
   opacity: .9;
+  border-bottom-left-radius: 120px;
+  border-top-left-radius: 120px;
 }
 .rightBottom{
   width: 50%;
-  height: 1%;
+  height: 3%;
   background: #000000 ;
   background: linear-gradient(90deg, #000000 98%, #909090 100%);
   box-shadow: 10px 5px 5px black;
   opacity: .9;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 120px;
 }
